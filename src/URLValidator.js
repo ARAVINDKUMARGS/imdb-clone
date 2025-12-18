@@ -6,13 +6,13 @@ function URLValidator() {
 
   // URL validation regex
   const urlPattern = new RegExp(
-    "^(https?:\\/\\/)?" +                   // optional protocol
-    "((([a-zA-Z0-9\\-]+\\.)+[a-zA-Z]{2,})|" + // domain name
-    "localhost|" +                          // localhost
-    "((\\d{1,3}\\.){3}\\d{1,3}))" +        // OR IPv4
-    "(\\:\\d+)?(\\/[-a-zA-Z0-9%_.~+]*)*" + // port and path
-    "(\\?[;&a-zA-Z0-9%_.~+=-]*)?" +        // query string
-    "(\\#[-a-zA-Z0-9_]*)?$",               // fragment locator
+    "^(https?:\\/\\/)?" +                   
+    "((([a-zA-Z0-9\\-]+\\.)+[a-zA-Z]{2,})|" + 
+    "localhost|" +                          
+    "((\\d{1,3}\\.){3}\\d{1,3}))" +        
+    "(\\:\\d+)?(\\/[-a-zA-Z0-9%_.~+]*)*" + 
+    "(\\?[;&a-zA-Z0-9%_.~+=-]*)?" +       
+    "(\\#[-a-zA-Z0-9_]*)?$",               
     "i"
   );
 

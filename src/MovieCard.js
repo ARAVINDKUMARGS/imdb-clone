@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 
 function MovieCard({ movie }) {
-  const stars = Math.round(movie.rating / 2); // Convert rating /10 to 5 stars
+  const stars = Math.round(movie.rating / 2); 
 
   return (
     <div className="w-48 border rounded-lg shadow-lg p-4 text-center hover:scale-105 transform transition duration-200 bg-white">
