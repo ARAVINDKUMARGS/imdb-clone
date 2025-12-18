@@ -1,12 +1,8 @@
 import React from "react";
-import URLValidator from "./URLValidator";
+import Timer from "./Timer";
 
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <URLValidator />
-    </div>
-  );
+  return <Timer />;
 }
 
 export default App;
