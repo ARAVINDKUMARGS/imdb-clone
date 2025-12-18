@@ -1,8 +1,8 @@
 import React from "react";
-import Timer from "./Timer";
+import SearchBar from "./SearchBar";
 
 function App() {
-  return <Timer />;
+  return <SearchBar />;
 }
 
 export default App;
