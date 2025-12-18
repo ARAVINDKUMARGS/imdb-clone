@@ -1,8 +1,8 @@
 import React from "react";
-import SearchBar from "./SearchBar";
+import PasswordForm from "./PasswordForm";
 
 function App() {
-  return <SearchBar />;
+  return <PasswordForm />;
 }
 
 export default App;
